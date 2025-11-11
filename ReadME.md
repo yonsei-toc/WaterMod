@@ -18,8 +18,8 @@ WaterMod elegantly solves this limitation with a probability-aware modular rule.
 
 Here’s the simple, two-step process at each decoding step:
     
-    - a) Rank: The model first calculates the probability for every token. We sort these tokens by their probability, from most likely (Rank 1) to least likely (Rank V).
-    - b) Partition: We apply a simple modular arithmetic rule: rank mod k. This rule splits all tokens into k different color classes based on their rank.
+- a) Rank: The model first calculates the probability for every token. We sort these tokens by their probability, from most likely (Rank 1) to least likely (Rank V).
+- b) Partition: We apply a simple modular arithmetic rule: rank mod k. This rule splits all tokens into k different color classes based on their rank.
 
 This method naturally distributes adjacent, high-probability tokens (which are often semantic synonyms) into different classes.
 As a result, at least one high-probability, high-quality token is available for sampling, regardless of which class we choose to bias. This probability-balanced approach is the key to maintaining generation quality.
