@@ -90,3 +90,16 @@ bash parse_and_evaluation.sh
 ```
 
 These scripts will generate watermarked outputs, evaluate performance.
+
+## 🖊 Citation
+```text
+@misc{park2025watermodmodulartokenrankpartitioning,
+      title={WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking}, 
+      author={Shinwoo Park and Hyejin Park and Hyeseon Ahn and Yo-Sub Han},
+      year={2025},
+      eprint={2511.07863},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2511.07863}, 
+}
+```
