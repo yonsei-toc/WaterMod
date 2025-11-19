@@ -20,7 +20,7 @@ do
     done 
 done 
 
-for dataset in "mbpp_plus""gsm" "c4"
+for dataset in "mbpp_plus" "gsm" "c4"
 do 
     for model_path in "Qwen/Qwen2.5-1.5B"
     do 
