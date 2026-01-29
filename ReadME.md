@@ -1,6 +1,6 @@
-# WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking (AAAI 2026 Oral)
+# WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking (AAAI 2026 Main Track Oral Presentation)
 
-This repository contains the official implementation, evaluation scripts, and experiment pipelines for the AAAI 2026 paper (Oral): WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking.
+This repository contains the official implementation, evaluation scripts, and experiment pipelines for the AAAI 2026 paper: WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking.
 
 # 💡 What is WaterMod?
 
